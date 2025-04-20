@@ -1,84 +1,57 @@
 "use client";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Icon1 from "../../../public/images/v6/icon-v-6-1.png";
-import Icon2 from "../../../public/images/v6/icon-v-6-2.png";
-import Icon3 from "../../../public/images/v6/icon-v-6-3.png";
+import IconPatri from "../../../public/images/v6/kaca-patri-logo.png"
+import IconInlay from "../../../public/images/v6/kaca-inlay-logo.png"
+import IconLukis from "../../../public/images/v6/kaca-painted-logo.png"
+import IconCermin from "../../../public/images/v6/kaca-mirror-logo.png"
+import IconAluminium from "../../../public/images/v6/kaca-aluminium-logo.png"
+
+
 import ServiceCard from "./ServiceCard";
 
 const servicesData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Residential Interior Design",
+		title: "Kaca Patri",
 		description:
-			"Tailored home design solutions that reflect the client&apos;s lifestyle preferences, and functional needs.",
-		img: Icon1,
+			" Kaca dekoratif dengan motif warna-warni yang dibuat secara custom—ideal untuk hunian, tempat ibadah, atau bangunan komersial.",
+		img: IconPatri,
 		bgColor: "cornflower-bg",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Commercial Interior Design",
+		title: "Kaca Inlay (Diamond Glass)",
 		description:
-			"Office design solutions focusing on functionality, color, productivity, and a professional aesthetic look.",
-		img: Icon2,
+			"Kaca dengan pola geometris elegan yang memberikan kesan mewah pada pintu, jendela dan partisi.",
+		img: IconInlay,
 		bgColor: "bg-light7",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Space Planning",
+		title: "Kaca Lukis (Painted Glass)",
 		description:
-			"Space planning, furniture selection, color coordination, to create inviting and personalized interiors.",
-		img: Icon3,
+			"Kaca dengan gambar atau ornamen yang dilukis langsung di permukaan kaca, menciptakan kesan personal dan artistik.",
+		img: IconLukis,
 		bgColor: "green-bg2",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Residential Interior Design",
+		title: "Cermin Dekoratif",
 		description:
-			"Tailored home design solutions that reflect the client&apos;s lifestyle preferences, and functional needs.",
-		img: Icon1,
-		bgColor: "cornflower-bg",
+			"Cermin estetik dengan ornamen artistik yang memperluas ruang sekaligus mempercantik tampilan interior.",
+		img: IconCermin,
+		bgColor: "dark-bg3",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Commercial Interior Design",
+		title: "Kaca Aluminium",
 		description:
-			"Office design solutions focusing on functionality, color, productivity, and a professional aesthetic look.",
-		img: Icon2,
-		bgColor: "bg-light7",
+			"Kombinasi kaca dan rangka aluminium yang kuat dan minimalis, cocok untuk kebutuhan modern dan fungsionalistas",
+		img: IconAluminium,
+		bgColor: "dark-bg2",
 	},
-	{
-		id: crypto.randomUUID(),
-		title: "Space Planning",
-		description:
-			"Space planning, furniture selection, color coordination, to create inviting and personalized interiors.",
-		img: Icon3,
-		bgColor: "green-bg2",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Residential Interior Design",
-		description:
-			"Tailored home design solutions that reflect the client&apos;s lifestyle preferences, and functional needs.",
-		img: Icon1,
-		bgColor: "cornflower-bg",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Commercial Interior Design",
-		description:
-			"Office design solutions focusing on functionality, color, productivity, and a professional aesthetic look.",
-		img: Icon2,
-		bgColor: "bg-light7",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Space Planning",
-		description:
-			"Space planning, furniture selection, color coordination, to create inviting and personalized interiors.",
-		img: Icon3,
-		bgColor: "green-bg2",
-	},
+	
 ];
 
 const swiperSettings = {
@@ -114,7 +87,7 @@ function Services() {
 						<div className="row">
 							<div className="col-lg-6">
 								<div className="aximo-section-title playfair">
-									<h2>Professional interior design solutions</h2>
+									<h2>Layanan dan Keahlian Kami</h2>
 								</div>
 							</div>
 						</div>

@@ -1,27 +1,53 @@
 import FadeInStagger from "@/components/animation/FadeInStagger";
 import Link from "next/link";
-import Box1Img from "../../../public/images/v6/imagebox1.png";
+import Box1Img from "../../../public/images/v6/features-img-11.png";
+import Box1Img2 from "../../../public/images/v6/features-img-22.png";
+import Box1Img3 from "../../../public/images/v6/features-img-44.png";
+import Box1Img4 from "../../../public/images/v6/features-img-55.png";
+import Box1Img5 from "../../../public/images/v6/features-img-66.png";
+import Box1Img6 from "../../../public/images/v6/features-img-33.png";
 import FeatureCard from "./FeatureCard";
 const featuresData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Aesthetic Design",
+		title: "Desain Estetik",
 		description:
-			"Demonstrates a keen eye for design, ensuring each project reflects a high level of aesthetic appeal.",
+			"Kami percaya, desain yang baik bukan hanya soal visual—tapi juga soal rasa dan makna yang dibawanya ke dalam ruang Anda.",
 		img: Box1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Affordable Pricing",
-		description: "We always ensure a balance between affordability and also delivering a high-quality end product.",
-		img: Box1Img,
+		title: "Harga Terjangkau",
+		description: "Kami selalu menawarkan kualitas terbaik dengan harga yang tetap terjangkau—tanpa mengorbankan hasil akhir.",
+		img: Box1Img2,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Professional Team",
+		title: "Material Terbaik",
 		description:
-			"We boast of a team of skilled interior designers, architects & support staff with functional experience",
-		img: Box1Img,
+			"Kami memilih material kaca patri dan aluminium terbaik yang tahan lama, kuat, dan tampil estetik.",
+		img: Box1Img3,
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Tepat Waktu",
+		description:
+			"Dengan manajemen proyek yang rapi dan tim yang berpengalaman, kami pastikan setiap pesanan selesai tepat waktu tanpa mengorbankan kualitas",
+		img: Box1Img4,
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Jasa Terpercaya",
+		description:
+			"Dari rumah pribadi, Ruang Komersial hingga bangunan ibadah, kami telah dipercaya oleh banyak pelanggan karena hasil kerja yang rapi, proses transparan, dan layanan yang ramah",
+		img: Box1Img5,
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Tim Profesional",
+		description:
+			"Proyek Anda akan ditangani oleh tim profesional berpengalaman—mulai dari desainer, hingga teknisi ahli.",
+		img: Box1Img6,
 	},
 ];
 function Features() {

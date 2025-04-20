@@ -6,13 +6,13 @@ import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import Shape2Img from "../../../public/images/v5/shape2.png";
 import PlayBtnImg from "../../../public/images/v6/play-btn.png";
-import VideoBg from "../../../public/images/v6/video-bg.png";
+import VideoBg from "../../../public/images/v6/video-img-tg.jpg";
 function Video() {
 	const [isOpen, setOpen] = useState(false);
 
 	return (
 		<FadeInUp className="aximo-video-section2 extra-side-margin">
-			<Image src={VideoBg} alt="video bg" />
+			<Image src={VideoBg} alt="video bg" className="img-border" />
 			<ModalVideo
 				channel="youtube"
 				youtube={{ autoplay: 0 }}
@@ -21,15 +21,10 @@ function Video() {
 				onClose={() => setOpen(false)}
 			/>
 			<button className="aximo-video-popup play-btn-size video-init" onClick={() => setOpen(true)}>
-				<Image src={PlayBtnImg} alt="Play Btn" />
+				<Image src={PlayBtnImg} alt="Play Btn" height={100} width={100}/>
 				<div className="waves waves6 wave-1"></div>
 				<div className="waves waves6 wave-2"></div>
-				<div className="waves waves6 wave-3"></div>
 			</button>
-
-			<div className="aximo-video-shape">
-				<Image src={Shape2Img} alt="shape" />
-			</div>
 		</FadeInUp>
 	);
 }

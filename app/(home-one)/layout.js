@@ -1,4 +1,5 @@
-import { inter, syne } from "../fonts";
+import { inter, playfair_display } from "../fonts";
+
 // Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -18,8 +19,8 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 import ImportBsJS from "@/components/BootstrapClient";
-import Footer from "@/components/home-one/footer";
-import Header from "@/components/home-one/header";
+import Footer from "@/components/home-six/footer";
+import Header from "@/components/home-six/header";
 
 // main css
 import "../../public/css/app.css";
@@ -27,14 +28,14 @@ import "../../public/css/main.css";
 import "../../public/css/mobile-nav.css";
 
 export const metadata = {
-	title: "Aximo || Responsive Next.js Template",
-	description: "Aximo || Responsive Next.js Template",
+	title: "Tangguh Glass | Spesialis Kaca Patri dan Aluminium",
+	description: "Spesialis Kaca Patri dan Aluminium",
 };
 
-export default function HomeOneLayout({ children }) {
+export default function HomeSixLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className={`${syne.variable} ${inter.variable}`}>
+			<body className={`${inter.variable} ${playfair_display.variable}`}>
 				<ImportBsJS />
 				<Header />
 				{children}

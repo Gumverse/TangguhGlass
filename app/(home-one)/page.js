@@ -1,17 +1,19 @@
-import About from "@/components/home-one/about";
+import About from "@/components/home-six/about";
 import AutoSlider from "@/components/home-one/auto-slider";
-import Hero from "@/components/home-one/hero";
-import Projects from "@/components/home-one/projects";
-import Services from "@/components/home-one/services";
-import Teams from "@/components/home-one/teams";
+import Hero from "@/components/home-six/hero";
+import Projects from "@/components/home-six/projects";
 import Testimonial from "@/components/home-one/testimonial";
 import WhyChooseUs from "@/components/home-one/why-choose-us";
+import Team4Img from "@/public/images/team/team4.png";
+import Video from "@/components/home-six/video";
+import Features from "@/components/home-six/features";
+import Services from "@/components/home-six/services";
 
 // Teams images
 import Team1Img from "@/public/images/team/team1.png";
 import Team2Img from "@/public/images/team/team2.png";
 import Team3Img from "@/public/images/team/team3.png";
-import Team4Img from "@/public/images/team/team4.png";
+
 
 const servicesData = [
 	{
@@ -73,13 +75,14 @@ export default function HomeOne() {
 	return (
 		<>
 			<Hero />
-			<Services services={servicesData} />
+			<Video />
+			<Features />
 			<About />
+			<Services />
 			<Projects />
 			<WhyChooseUs />
 			<Testimonial />
 			<AutoSlider />
-			<Teams teams={teamsData} />
 		</>
 	);
 }

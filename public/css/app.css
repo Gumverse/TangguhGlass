@@ -67,7 +67,7 @@
 	.container-sm,
 	.container-xl,
 	.container-xxl {
-		max-width: 1296px;
+		max-width: 1280px;
 	}
 }
 
@@ -1889,11 +1889,24 @@ blockquote {
 .dark-bg2 {
 	background-color: var(--dark-bg2) !important;
 }
+.dark-bg2 h3 {
+	color: var(--light-bg7)!important ;
+}
+.dark-bg2 p {
+	color: var(--light-bg7)!important;
+}
 
 .dark-bg3 {
 	background-color: var(--dark-bg3) !important;
 }
 
+.dark-bg3 h3 {
+	color: var(--light-bg7)!important ;
+}
+
+.dark-bg3 p {
+	color: var(--light-bg7)!important;
+}
 .green-bg {
 	background-color: var(--green-bg) !important;
 }
@@ -1901,7 +1914,12 @@ blockquote {
 .green-bg2 {
 	background-color: var(--green-bg2) !important;
 }
-
+.green-bg2 h3 {
+	color: var(--light-bg7)!important ;
+}
+.green-bg2 p {
+	color: var(--light-bg7)!important;
+}
 .cornflower-bg {
 	background-color: var(--cornflower-bg) !important;
 }
@@ -2584,8 +2602,8 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 }
 .aximo-default-btn.aximo-header-btn {
 	height: 50px;
-	width: 150px;
-	padding: 0;
+	width: auto;
+	padding: 0 15px;
 	line-height: 47.5px;
 	color: var(--heading-color) !important;
 	border: 2px solid var(--heading-color);
@@ -2629,7 +2647,6 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 .aximo-default-btn.aximo-header-btn.corn-btn {
 	box-shadow: none;
 	border: none;
-	width: 150px;
 	line-height: 50px;
 	color: var(--green-color) !important;
 	background-color: var(--corn-bg);
@@ -4203,7 +4220,7 @@ button#aximo-hero-subscription-btn:hover .aximo-label-up {
 }
 
 .aximo-hero-section5 {
-	padding: 195px 0 355px;
+	padding: 195px 0 395px;
 }
 @media (max-width: 1199px) {
 	.aximo-hero-section5 {
@@ -4323,7 +4340,7 @@ img.aximo-hero-wave-shape {
 }
 @media (max-width: 1669px) {
 	.aximo-hero-text {
-		font-size: 110px;
+		font-size: 120px;
 	}
 }
 @media (max-width: 1400px) {
@@ -5219,7 +5236,7 @@ p.aximo-skillbar-lable {
 	margin-bottom: 25px;
 }
 .aximo-iconbox-data8 h3 {
-	font-size: 40px;
+	font-size: 36px;
 	margin-bottom: 12px;
 	font-family: var(--font-playfair-display);
 	color: var(--heading-color5);
@@ -5722,6 +5739,7 @@ a.aximo-service-icon:hover {
 }
 .aximo-video-section2 img {
 	border-radius: 20px;
+	
 }
 @media (max-width: 767px) {
 	.aximo-video-section2 img {
@@ -5784,10 +5802,10 @@ a.aximo-service-icon:hover {
 	animation-delay: 2s;
 }
 .waves.waves6 {
-	left: -45px;
-	top: -45px;
-	width: 270px;
-	height: 270px;
+	left: -75px;
+    top: -75px;
+    width: 250px;
+    height: 250px;
 }
 @media (max-width: 991px) {
 	.waves.waves6 {
@@ -6611,7 +6629,7 @@ img.aximo-video-circle {
 }
 
 .extra-side-margin {
-	margin: 0 50px;
+	margin: 0 70px;
 }
 @media (max-width: 991px) {
 	.extra-side-margin {
@@ -7259,7 +7277,7 @@ img.aximo-video-circle {
 }
 
 .aximo-project-slider .swiper-pagination {
-	max-width: 1296px;
+	max-width: 1280px;
 	display: flex;
 	position: static;
 	margin: 0 auto;
@@ -7397,7 +7415,7 @@ img.aximo-video-circle {
 	height: 2px;
 	left: 0;
 	width: 100%;
-	max-width: 1296px;
+	max-width: 1280px;
 	margin-top: 100px;
 }
 @media (max-width: 991px) {
@@ -7865,7 +7883,7 @@ img.swipeimage {
 	object-fit: cover;
 	z-index: 9;
 	opacity: 0;
-	visibily: hidden;
+	visibility: hidden;
 	pointer-events: none;
 	border-radius: 7px;
 	border: 5px solid #fff;
@@ -8079,7 +8097,9 @@ a.forgot-password {
 }
 .aximo-account-checkbox label:before {
 	content: "";
+	appearance: none;
 	-webkit-appearance: none;
+	-moz-appearance: none;
 	background-color: transparent;
 	border: 1.5px solid #7f8995;
 	padding: 7px;
@@ -8247,6 +8267,15 @@ a.aximo-connect-login img {
 
 .z-index {
 	z-index: 1 !important;
+}
+.aximo-section-margin {
+	margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+	.aximo-section-margin {
+		margin-top: 10px;
+	}
 }
 
 .aximo-section-padding {
@@ -10340,3 +10369,16 @@ button#aximo-notified-btn {
 
 /*1.4 themes css*/
 /*# sourceMappingURL=app.css.map */
+.swiper {
+	overflow: visible !important;
+}
+
+.img-border {
+	border: var(--heading-color5) 5px solid !important;
+}
+
+@media (max-width: 767px) {
+	.img-border {
+		border: var(--heading-color5) 3px solid !important;
+	}
+}
