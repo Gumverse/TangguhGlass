@@ -1,9 +1,11 @@
 import FadeInStagger from "@/components/animation/FadeInStagger";
 import Image from "next/image";
-import Project1Img from "../../../public/images/v6/p_1.png";
-import Project2Img from "../../../public/images/v6/p_2.png";
-import Project3Img from "../../../public/images/v6/p_3.png";
-import Project4Img from "../../../public/images/v6/p_4.png";
+import Project1Img from "../../../public/images/v6/project-img-1.jpg";
+import Project2Img from "../../../public/images/v6/project-img-2.jpg";
+import Project3Img from "../../../public/images/v6/project-img-33.jpg";
+import Project4Img from "../../../public/images/v6/project-img-4.jpg";
+import Project5Img from "../../../public/images/v6/project-img-5.jpg";
+import Project6Img from "../../../public/images/v6/project-img-6.jpg";
 import Shape2Img from "../../../public/images/v6/shapes2.png";
 import ProjectCard from "./ProjectCard";
 
@@ -20,10 +22,11 @@ const projectsData = [
 		img: Project2Img,
 		colSize: "6",
 	},
+	
 	{
 		id: crypto.randomUUID(),
 		title: "Corporate Elegance",
-		img: Project3Img,
+		img: Project5Img,
 		colSize: "8",
 	},
 	{
@@ -32,13 +35,26 @@ const projectsData = [
 		img: Project4Img,
 		colSize: "4",
 	},
+	{
+		id: crypto.randomUUID(),
+		title: "Corporate Elegance",
+		img: Project6Img,
+		colSize: "4",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Corporate Elegance",
+		img: Project3Img,
+		colSize: "8",
+	},
+	
 ];
 function Projects() {
 	return (
 		<div className="section aximo-section-padding5 position-relative">
 			<div className="container">
 				<div className="aximo-section-title playfair center max-width-xl">
-					<h2>Explore our latest interior design project</h2>
+					<h2>Galeri Karya Terbaru Kami</h2>
 				</div>
 				<div className="row">
 					{projectsData.map((project, index) => (

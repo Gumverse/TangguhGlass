@@ -1,9 +1,8 @@
 import About from "@/components/home-six/about";
-import AutoSlider from "@/components/home-one/auto-slider";
 import Hero from "@/components/home-six/hero";
 import Projects from "@/components/home-six/projects";
-import Testimonial from "@/components/home-one/testimonial";
-import WhyChooseUs from "@/components/home-one/why-choose-us";
+import Testimonials from "@/components/home-six/testimonials";
+import Blogs from "@/components/home-six/blogs";
 import Team4Img from "@/public/images/team/team4.png";
 import Video from "@/components/home-six/video";
 import Features from "@/components/home-six/features";
@@ -80,9 +79,8 @@ export default function HomeOne() {
 			<About />
 			<Services />
 			<Projects />
-			<WhyChooseUs />
-			<Testimonial />
-			<AutoSlider />
+			<Testimonials />
+			<Blogs />
 		</>
 	);
 }
