@@ -50,7 +50,7 @@ function Blog() {
 						<div className="right-sidebar">
 							<Search />
 							{/* <Categories /> */}
-							<RecentPosts />
+							<RecentPosts posts={blogData} />
 							<Tags />
 						</div>
 					</div>
