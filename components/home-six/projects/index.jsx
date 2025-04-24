@@ -8,42 +8,43 @@ import Project5Img from "../../../public/images/v6/project-img-5.jpg";
 import Project6Img from "../../../public/images/v6/project-img-6.jpg";
 import Shape2Img from "../../../public/images/v6/shapes2.png";
 import ProjectCard from "./ProjectCard";
+import Link from "next/link";
 
 const projectsData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Corporate Elegance",
+		title: "Luxury Diamon Glass",
 		img: Project1Img,
 		colSize: "6",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Corporate Elegance",
+		title: "Luxury Kaca Patri",
 		img: Project2Img,
 		colSize: "6",
 	},
 	
 	{
 		id: crypto.randomUUID(),
-		title: "Corporate Elegance",
+		title: "Kaca Patri Masjid",
 		img: Project5Img,
 		colSize: "8",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Corporate Elegance",
+		title: "Paca Patri Pintu Gereja",
 		img: Project4Img,
 		colSize: "4",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Corporate Elegance",
+		title: "Diamon Glass Masjid",
 		img: Project6Img,
 		colSize: "4",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Corporate Elegance",
+		title: "Kaca Patri Jendela utama Gereja",
 		img: Project3Img,
 		colSize: "8",
 	},
@@ -63,6 +64,11 @@ function Projects() {
 						</FadeInStagger>
 					))}
 				</div>
+			</div>
+			<div className="aximo-bottom-center">
+				<Link className="aximo-default-btn green-btn pill" href="/galeri">
+					<span>Explore More Galeri</span>
+				</Link>
 			</div>
 			<div className="aximo-p-shape">
 				<Image src={Shape2Img} alt="Shape" />

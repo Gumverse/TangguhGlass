@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Star2Img from "../../../public/images/v1/star2.png";
 import AboutCounter from "./AboutCounter";
 import Video from "./Video";
 
@@ -13,18 +12,14 @@ function About() {
 						<div className="col-lg-7">
 							<h2>
 								<span className="aximo-title-animation">
-									We make your
-									<span className="aximo-title-icon">
-										<Image src={Star2Img} alt="Star2Img" />
-									</span>
-								</span>{" "}
-								business stand out
+								Tentang Kami
+								</span><br />
+								Tangguh Glass Lestari Makmur
 							</h2>
 						</div>
 						<div className="col-lg-4 offset-lg-1 d-flex align-items-center">
 							<p>
-								We work closely with our clients to know their objectives, target audience, unique
-								needs, and practical design solutions.
+							Kami adalah spesialis kaca patri dan kaca aluminium nomor satu di Indonesia yang telah berpengalaman sejak tahun 2008. Berawal dari sebuah tim kecil dengan semangat tinggi, kami terus tumbuh seiring meningkatnya permintaan pelanggan di seluruh Indonesia.
 							</p>
 						</div>
 					</div>

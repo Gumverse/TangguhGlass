@@ -1,4 +1,4 @@
-import GridBlog from "@/components/blog/grid-blog";
+import GridBlog from "@/components/artikel/grid-blog";
 import BreadCrumb from "@/components/common/Breadcrumb";
 
 function BlogGridPage() {

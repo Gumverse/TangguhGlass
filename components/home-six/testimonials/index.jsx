@@ -50,7 +50,7 @@ function Testimonials() {
 					))}
 				</div>
 				<div className="aximo-bottom-center">
-					<Link className="aximo-default-btn green-btn pill" href="/testimonial">
+					<Link className="aximo-default-btn green-btn pill" href="/#">
 						<span>Explore All Reviews</span>
 					</Link>
 				</div>

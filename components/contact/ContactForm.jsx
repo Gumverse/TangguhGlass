@@ -1,8 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useForm } from "react-hook-form";
-import ContactThumb from "../../public/images/contact/contact-thumb.png";
-import Star2Img from "../../public/images/v1/star2.png";
+import ContactThumb from "../../public/images/contact/kontak.jpg";
 import FadeInRight from "../animation/FadeInRight";
 import Field from "../common/Field";
 function ContactForm() {
@@ -22,12 +21,9 @@ function ContactForm() {
 						<div className="aximo-section-title">
 							<h2>
 								<span className="aximo-title-animation">
-									Contact us for a
-									<span className="aximo-title-icon">
-										<Image src={Star2Img} alt="Star" />
-									</span>
+								Hubungi kami 
 								</span>
-								personal experience
+								&nbsp; untuk Kerajinan kaca patri & aluminium terbaik.
 							</h2>
 						</div>
 					</div>

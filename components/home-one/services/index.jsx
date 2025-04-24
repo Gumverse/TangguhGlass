@@ -1,6 +1,4 @@
 import FadeInStagger from "@/components/animation/FadeInStagger";
-import Image from "next/image";
-import Star2Img from "../../../public/images/v1/star2.png";
 import ServiceCard from "./ServiceCard";
 
 function Services({ services }) {
@@ -9,13 +7,7 @@ function Services({ services }) {
 			<div className="container">
 				<div className="aximo-section-title center">
 					<h2>
-						We provide effective
-						<span className="aximo-title-animation">
-							design solutions
-							<span className="aximo-title-icon">
-								<Image src={Star2Img} alt="Star2Img" />
-							</span>
-						</span>
+					Melayani Pembuatan Kaca Patri & Kaca Aluminium
 					</h2>
 				</div>
 				<div className="aximo-service-wrap">

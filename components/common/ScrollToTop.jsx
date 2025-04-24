@@ -1,16 +1,22 @@
+"use client";
+
 import { useEffect, useState } from "react";
 
 export default function ScrollToTop() {
 	const [showTopBtn, setShowTopBtn] = useState(false);
 
 	useEffect(() => {
-		window.addEventListener("scroll", () => {
+		const handleScroll = () => {
 			if (window.scrollY > 700) {
 				setShowTopBtn(true);
 			} else {
 				setShowTopBtn(false);
 			}
-		});
+		};
+		window.addEventListener("scroll", handleScroll);
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		};
 	}, []);
 
 	const goToTop = () => {
@@ -21,7 +27,11 @@ export default function ScrollToTop() {
 	};
 	return (
 		showTopBtn && (
-			<div className="aximo-go-top" onClick={goToTop}>
+			<div
+				className="aximo-go-top green-btn"
+				
+				onClick={goToTop}
+			>
 				<i className="fas fa-arrow-up"></i>
 			</div>
 		)

@@ -1,4 +1,4 @@
-import Blog from "@/components/blog";
+import Blog from "@/components/artikel";
 import BreadCrumb from "@/components/common/Breadcrumb";
 
 function BlogPage() {

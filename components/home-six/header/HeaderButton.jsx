@@ -1,7 +1,7 @@
 import Link from "next/link";
 function HeaderButton() {
 	return (
-		<div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
+		<div className="header-btn header-btn-l1 ms-auto d-none d-lg-inline-flex">
 			<Link
 				className="aximo-default-btn pill aximo-header-btn green-btn"
 				href="https://wa.me/6285718833106?text=Halo%2C%20saya%20tertarik%20dengan%20kaca%20patri%20dari%20Tangguh%20Glass.%20Boleh%20minta%20info%20lebih%20lanjut%3F"

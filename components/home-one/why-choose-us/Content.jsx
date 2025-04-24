@@ -6,20 +6,17 @@ function Content() {
 		<div className="aximo-default-content">
 			<h2>
 				<span className="aximo-title-animation">
-					Our high-quality
+				Proses Kerja Kami
 					<span className="aximo-title-icon">
 						<Image src={Star2Img} alt="Star2Img" />
 					</span>
 				</span>
-				working processes
 			</h2>
 			<p>
-				We focus at every stage on effective communication and collaboration between the client and ensuring
-				that the final design meets the client s objectives and expectations.
+			setiap proyek dimulai dengan konsultasi mendalam untuk memahami kebutuhan dan keinginan pelanggan. Tim desain kami kemudian membuat sketsa dan rancangan yang detail, menggabungkan unsur seni tradisional kaca patri maupun inovasi modern agar hasil akhir sesuai ekspektasi.
 			</p>
 			<p>
-				It is important to note that these are simplified steps, and the actual work process may vary depending
-				on the complexity of the project.
+			Setelah desain disetujui, proses produksi dimulai dengan pemilihan bahan kaca berkualitas tinggi dan teknik pengerjaan presisi oleh para pengrajin berpengalaman. Kami memastikan setiap tahap diawasi ketat demi menjaga standar mutu terbaik sebelum produk dikirim ke seluruh Indonesia.
 			</p>
 		</div>
 	);

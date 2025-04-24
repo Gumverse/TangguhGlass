@@ -8,7 +8,7 @@ function ProjectCard({ project: { title, img } }) {
 			<div className="aximo-marquee-two">
 				<div className="aximo-infinite two">
 					{[...Array(18)].map(() => (
-						<Link key={crypto.randomUUID()} href="/single-portfolio">
+						<Link key={crypto.randomUUID()} href="/galeri">
 							{title} <Image src={NextWhiteImg} alt="Next" />
 						</Link>
 					))}

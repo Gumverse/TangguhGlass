@@ -1,11 +1,11 @@
 "use client";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import IconPatri from "../../../public/images/v6/kaca-patri-logo.png"
-import IconInlay from "../../../public/images/v6/kaca-inlay-logo.png"
-import IconLukis from "../../../public/images/v6/kaca-painted-logo.png"
-import IconCermin from "../../../public/images/v6/kaca-mirror-logo.png"
-import IconAluminium from "../../../public/images/v6/kaca-aluminium-logo.png"
+import IconPatri from "../../../public/images/v6/kaca-patri-logo1.png"
+import IconInlay from "../../../public/images/v6/kaca-inlay-logo1.png"
+import IconLukis from "../../../public/images/v6/kaca-painted-logo1.png"
+import IconCermin from "../../../public/images/v6/kaca-mirror-logo1.png"
+import IconAluminium from "../../../public/images/v6/kaca-aluminium-logo1.png"
 
 
 import ServiceCard from "./ServiceCard";
@@ -82,6 +82,14 @@ function Services() {
 	return (
 		<div className="section aximo-section-padding4">
 			<div className="container">
+				{/* Visually hidden h1 for SEO */}
+				<h1 className="sr-only">
+					Layanan dan Keahlian Kaca Patri, Inlay, Lukis, Cermin Dekoratif, dan Kaca Aluminium - Tangguh Glass
+				</h1>
+				{/* Visually hidden descriptive paragraph for SEO */}
+				<p className="sr-only">
+					Tangguh Glass menawarkan layanan kaca patri, kaca inlay, kaca lukis, cermin dekoratif, dan kaca aluminium berkualitas tinggi untuk hunian, tempat ibadah, dan ruang komersial. Setiap layanan kami dikerjakan dengan keahlian dan dedikasi untuk hasil terbaik.
+				</p>
 				<div className="row aximo_screenfix_right">
 					<div className="swiper aximo-iconbox-slider">
 						<div className="row">

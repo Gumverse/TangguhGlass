@@ -1,10 +1,10 @@
-import SingleBlog from "@/components/blog/single-blog";
+import SingleBlog from "@/components/artikel/single-blog";
 import BreadCrumb from "@/components/common/Breadcrumb";
 
 function SingleBlogPage() {
 	return (
 		<>
-			<BreadCrumb title="Blog Details" />
+			<BreadCrumb title="Single-blog" />
 			<SingleBlog />
 		</>
 	);

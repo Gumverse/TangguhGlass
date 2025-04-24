@@ -9,7 +9,7 @@ function PortfolioCard({ portfolio: { title, description, img } }) {
 					<Link href="/single-portfolio">
 						<h3>{title}</h3>
 					</Link>
-					<p>{description}</p>
+					{/* <p>{description}</p> */}
 				</div>
 				<Link className="aximo-project-icon" href="/single-portfolio">
 					<svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">

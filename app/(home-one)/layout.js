@@ -10,6 +10,8 @@ import "react-modal-video/css/modal-video.css";
 import "../../public/css/fontawesome.css";
 import "../../public/css/icomoon.css";
 
+import ScrollToTop from "@/components/common/ScrollToTop";
+
 //  Swiper styles
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -21,6 +23,7 @@ import "swiper/css/scrollbar";
 import ImportBsJS from "@/components/BootstrapClient";
 import Footer from "@/components/home-six/footer";
 import Header from "@/components/home-six/header";
+
 
 // main css
 import "../../public/css/app.css";
@@ -40,6 +43,7 @@ export default function HomeSixLayout({ children }) {
 				<Header />
 				{children}
 				<Footer />
+				<ScrollToTop />
 			</body>
 		</html>
 	);

@@ -5,35 +5,35 @@ const faqData = {
 	faq1: [
 		{
 			id: crypto.randomUUID(),
-			title: "What services does agency offer?",
-			text: "Clients often seek to understand the range of design services an agency provides, such as graphic design, web design, branding.",
+			title: "Apa itu kaca patri dan apa keunggulannya?",
+			text: "Kaca patri adalah seni menyusun potongan kaca berwarna menjadi pola atau gambar dekoratif, sering digunakan pada jendela, pintu, dan partisi ruangan. Keunggulannya terletak pada nilai estetika tinggi, kesan mewah, dan kemampuannya menciptakan permainan cahaya yang indah di ruangan Anda.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "What is your design process like?",
-			text: "Explaining the design agency&apos;s process from initial concept to final delivery helps clients understand what to expect.",
+			title: "Apakah saya bisa memesan desain kaca patri custom sesuai keinginan?",
+			text: "Tentu. Kami menyediakan layanan desain custom kaca patri, kaca inlay, dan kaca painted. Anda bisa membawa desain sendiri atau berkonsultasi dengan tim kami untuk merancang motif sesuai kebutuhan estetika dan fungsi ruang Anda.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "How much does design work cost?",
-			text: "The cost of our design services varies depending on the scope of the project. We provide customized quotes after discussing requirements.",
+			title: "Berapa lama waktu produksi untuk satu proyek kaca dekoratif?",
+			text: "Waktu pengerjaan bervariasi tergantung tingkat kompleksitas desain dan ukuran proyek. Rata-rata produksi memakan waktu antara 1 hingga 4 minggu. Untuk proyek besar atau desain khusus, estimasi waktu akan kami sampaikan setelah proses konsultasi.",
 		},
 	],
 	faq2: [
 		{
 			id: crypto.randomUUID(),
-			title: "What&apos;s your design process like?",
-			text: "Our design process typically involves discovery, concept development, design, revisions based on feedback, and finalization.",
+			title: "Berapa harga kaca patri atau kaca dekoratif per meter?",
+			text: "Harga kaca patri dan kaca dekoratif bervariasi tergantung jenis kaca, tingkat kerumitan desain, ukuran, serta teknik pengerjaan (patri, inlay, painted, dll). Untuk desain custom, kami akan memberikan estimasi harga setelah proses konsultasi dan desain awal selesai.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "How do you handle user feedback?",
-			text: "We value client feedback and work closely with you to make sure user happy with the final design. We offer a specific number of revisions.",
+			title: "Apakah kaca dekoratif cocok untuk rumah tinggal atau hanya untuk tempat ibadah?",
+			text: "Kaca dekoratif sangat fleksibel dan cocok digunakan di berbagai tempat — mulai dari rumah pribadi, cafe, hotel, kantor, hingga tempat ibadah. Kami memiliki beragam gaya, dari klasik hingga modern, yang bisa disesuaikan dengan tema interior Anda.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "Can we see samples of your work?",
-			text: "Yes, we're proud to showcase a portfolio of our previous projects. You can find examples of our work on our website or view our portfolio.",
+			title: "Di mana lokasi layanan Anda dan apakah bisa kirim ke luar kota?",
+			text: "Kami berbasis di Jln. Ciater Raya no 2,Tanggerang Selatan, namun kami melayani pengiriman dan pemasangan ke seluruh Indonesia, termasuk Jakarta, Surabaya, Bandung, Yogyakarta, dan kota lainnya. Kami pastikan kemasan dan pengiriman aman hingga produk sampai di tempat Anda.",
 		},
 	],
 };
@@ -43,9 +43,9 @@ function TwoColumnFaq() {
 			<div className="container">
 				<div className="aximo-section-title center">
 					<h2>
-						These FAQs help
+						FAQs
 						<span className="aximo-title-animation">
-							clients learn about us
+							Pertanyaan Umum Pelanggan
 							<span className="aximo-title-icon">
 								<Image src={Star2Img} alt="Star" />
 							</span>

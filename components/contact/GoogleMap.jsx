@@ -5,7 +5,7 @@ function GoogleMap({ location }) {
 	return (
 		<div className="section">
 			<div className="container">
-				<div className="aximo-map-wrap">
+				<div >
 					<div id="map">
 						<GoogleMapReact
 							bootstrapURLKeys={{ key: "" }}

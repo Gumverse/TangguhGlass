@@ -5,6 +5,7 @@ import MobileNavbar from "@/components/common/navigation/mobile-nav/MobileNavbar
 import { menuItemsData } from "@/components/common/navigation/mobile-nav/menuItemsData";
 import HeaderButton from "./HeaderButton";
 import HeaderLogo from "./HeaderLogo";
+import styles from "./header.module.css";
 
 function Header() {
 	return (
@@ -15,14 +16,14 @@ function Header() {
 					<div className="menu-block-wrapper">
 						<DesktopNav>
 							<NavItem url="/">Beranda</NavItem>
-							<NavItem url="about-us">Tentang Kami</NavItem>
-							<NavItem url="service">Layanan</NavItem>
-							<NavItem url="portfolio-two">Galeri</NavItem>
-							<NavItem url="blog">Blog</NavItem>
-							<NavItem url="contact-us">Kontak</NavItem>
+							<NavItem url="tentang-kami">Tentang Kami</NavItem>
+							<NavItem url="layanan">Layanan</NavItem>
+							<NavItem url="galeri">Galeri</NavItem>
+							<NavItem url="artikel">Artikel</NavItem>
+							<NavItem url="kontak">Kontak</NavItem>
 						</DesktopNav>
 					</div>
-					<HeaderButton />
+					<HeaderButton className={styles.hideOnMobile} />
 					<MobileNavbar menuItemsData={menuItemsData} title="Aximo" />
 				</nav>
 			</div>

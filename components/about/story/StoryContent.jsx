@@ -2,28 +2,20 @@ function StoryContent() {
 	return (
 		<div className="row">
 			<div className="col-lg-6">
-				<h3>Our core vision</h3>
+				<h3>Visi Kami</h3>
 				<p>
-					Empowering businesses to create impactful and visually stunning brand experiences that captivate
-					audiences and drive success in the digital age.
+					Menjadi perusahaan terdepan di bidang kaca patri dan kaca aluminium di Indonesia yang dikenal karena kualitas produk unggulan serta pelayanan terbaik bagi pelanggan.
 				</p>
-				<p>
-					Our team consists of experienced designers, developers. We have a wide variety of skills and
-					backgrounds, allowing us to tackle projects of all sizes and complexities. We believe in the power
-					of imagination and innovation.
-				</p>
+
 			</div>
 			<div className="col-lg-6">
-				<h3>Our main mission</h3>
-				<p>
-					Our mission is to collaborate with businesses of all sizes, from startups to established brands, to
-					provide innovative and creative design solutions.
-				</p>
-				<p>
-					We are committed to creating designs that inspire, connect & our clients in the marketplace. Our
-					focus is on understanding. Our clients unique needs and delivery designs that not only meet but
-					exceed their expectations.
-				</p>
+				<h3>Misi Kami</h3>
+				<ul className="story-bullet">
+					<li>Menghasilkan karya seni kaca berkualitas tinggi dengan sentuhan inovasi dan tradisi.</li>
+					<li>Membangun hubungan jangka panjang dengan pelanggan melalui layanan profesional dan responsif.</li>
+					<li>Memperluas jangkauan pengiriman agar dapat melayani seluruh wilayah Indonesia secara optimal.</li>
+					<li>Mengembangkan tim ahli berdedikasi demi menjaga standar mutu terbaik.</li>
+				</ul>
 			</div>
 		</div>
 	);

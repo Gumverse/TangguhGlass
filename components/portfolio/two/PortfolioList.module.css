@@ -1,0 +1,18 @@
+.portfolio-masonry {
+  column-count: 4;
+  column-gap: 1rem;
+  width: 100%;
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+/* Responsive: 1 column on screens <= 768px */
+@media (max-width: 768px) {
+  .portfolio-masonry {
+    column-count: 1;
+  }
+}

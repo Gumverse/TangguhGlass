@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import NextImg from "../../../public/images/v6/next.svg";
-function BlogCard({ blog: { title, content, category, date, img } }) {
+function BlogCard({ blog: { title, content, category, date, img, slug } }) {
 	return (
 		<div className="col-lg-6">
 			<div className="aximo-blog-wrap2">
 				<div className="aximo-blog-thumb2">
-					<Link href="/single-blog">
+					<Link href={`/artikel/${slug}`}>
 						<Image src={img} alt={title} sizes="100vw" />
 					</Link>
 				</div>
@@ -17,11 +17,11 @@ function BlogCard({ blog: { title, content, category, date, img } }) {
 							<li>{date}</li>
 						</ul>
 					</div>
-					<Link href="/single-blog">
+					<Link href={`/artikel/${slug}`}>
 						<h3>{title}</h3>
 					</Link>
 					<p>{content}</p>
-					<Link className="aximo-blog-btn" href="/single-blog">
+					<Link className="aximo-blog-btn" href={`/artikel/${slug}`}>
 						<Image src={NextImg} alt="next" />
 					</Link>
 				</div>

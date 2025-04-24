@@ -1,4 +1,4 @@
-import SingleBlog from "@/components/blog/single-blog";
+import SingleBlog from "@/components/artikel/single-blog";
 import BreadCrumb from "@/components/common/Breadcrumb";
 
 function SingleBlogPage() {

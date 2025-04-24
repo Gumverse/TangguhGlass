@@ -9,21 +9,15 @@ function Story() {
 				<div className="aximo-section-title center title-description">
 					<h2>
 						<span className="aximo-title-animation">
-							We think our story is
-							<span className="aximo-title-icon">
-								<Image src={Star2Img} alt="star" />
-							</span>
+						Kualitas & Pelayanan Terpercaya
 						</span>
-						worth sharing with you
 					</h2>
 					<p>
-						Established in 2008, we began as a small but ambitious team. We understood the importance of
-						creative and tech-savvy solutions to help businesses succeed in the ever-changing digital
-						landscape.
+					Kami menghadirkan karya seni kaca berkualitas tinggi yang memadukan keindahan tradisional dan teknologi modern. Dengan layanan pemesanan mudah serta pengiriman ke seluruh Indonesia, kami siap memenuhi kebutuhan hunian, tempat ibadah, maupun proyek komersial Anda.
 					</p>
 				</div>
 
-				<StoryPhotos />
+				{/* <StoryPhotos /> */}
 
 				<div className="aximo-story-content">
 					<StoryContent />

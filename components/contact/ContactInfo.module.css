@@ -1,0 +1,9 @@
+.icon-inline {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
