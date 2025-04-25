@@ -26,6 +26,20 @@ function Footer() {
 				<div className="aximo-footer-extra-top">
 					<ContactInfo />
 					<div className="row">
+						{/* SEO Hidden Content untuk Google Maps */}
+						<div style={{ display: "none" }}>
+							<p>
+								Lokasi Tangguh Glass: Jl. Ciater Raya BSD No.2, Tangerang Selatan, Banten 15310, Indonesia. Koordinat: -6.3158055, 106.7050912. Kami melayani pemasangan kaca patri, kaca inlay, dan kaca aluminium untuk seluruh wilayah Indonesia.
+							</p>
+							<ul>
+								<li>Nama Bisnis: Tangguh Glass</li>
+								<li>Alamat: Jl. Ciater Raya BSD No.2, Tangerang Selatan, Banten 15310</li>
+								<li>Latitude: -6.3158055</li>
+								<li>Longitude: 106.7050912</li>
+								<li>Area layanan: Seluruh Indonesia Khususnya Jabodetabek</li>
+							</ul>
+						</div>
+						{/* End SEO Hidden Content */}
 						<iframe
 							src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3965.602702744903!2d106.7050912!3d-6.3158055!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e56b114c3e31%3A0x140262a4661ae7ee!2sBerkah%20Mika!5e0!3m2!1sen!2sid!4v1745146336852!5m2!1sen!2sid"
 							width="600"
