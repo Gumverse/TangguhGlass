@@ -7,6 +7,7 @@ import Team4Img from "@/public/images/team/team4.png";
 import Video from "@/components/home-six/video";
 import Features from "@/components/home-six/features";
 import Services from "@/components/home-six/services";
+import WhyChooseUs from "@/components/home-one/why-choose-us";
 
 // Teams images
 import Team1Img from "@/public/images/team/team1.png";
@@ -80,6 +81,7 @@ export default function HomeOne() {
 			<Services />
 			<Projects />
 			<Testimonials />
+			<WhyChooseUs />
 			<Blogs />
 		</>
 	);

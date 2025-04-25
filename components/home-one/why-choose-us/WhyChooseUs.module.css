@@ -1,0 +1,9 @@
+.ctaRowMargin {
+  margin-top: 7rem;
+}
+
+@media (max-width: 991px) {
+  .ctaRowMargin {
+    margin-top: 3rem;
+  }
+}
