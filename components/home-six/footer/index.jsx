@@ -11,6 +11,18 @@ function Footer() {
 	return (
 		<footer className="section dark-bg2 position-relative">
 			<div className="container">
+				{/* SEO Hidden Content */}
+				<div style={{ display: "none" }}>
+					<p>
+						Tangguh Glass menyediakan layanan kaca patri, kaca inlay, dan kaca aluminium untuk rumah, kantor, tempat ibadah, dan bangunan komersial di seluruh Indonesia. Hubungi kami untuk konsultasi, pemesanan, atau informasi lebih lanjut mengenai produk dan layanan kaca dekoratif berkualitas.
+					</p>
+					<ul>
+						<li>Alamat: Jl. Ciater Raya BSD No.2, Tangerang Selatan, Banten 15310</li>
+						<li>Telepon: +62 857-1883-3106</li>
+						<li>Email: tangguhglass@gmail.com</li>
+					</ul>
+				</div>
+				{/* End SEO Hidden Content */}
 				<div className="aximo-footer-extra-top">
 					<ContactInfo />
 					<div className="row">
@@ -46,23 +58,23 @@ function Footer() {
 						<div className="col-xl-3 col-md-4">
 							<div className="aximo-footer-menu light-two">
 								<div className="aximo-footer-title light-two">
-									<p>Utility pages</p>
+									<p>About us</p>
 								</div>
 								<ul>
 									<li>
-										<Link href="/about">About us</Link>
+										<Link href="/tentang-kami">Tentang Kami</Link>
 									</li>
 									<li>
-										<Link href="/service">Our services</Link>
+										<Link href="/layanan">Layanan</Link>
 									</li>
 									<li>
-										<Link href="/portfolio-one">Portfolio</Link>
+										<Link href="/galeri">Galeri</Link>
 									</li>
 									<li>
-										<Link href="/blog">Blogs</Link>
+										<Link href="/artikel">Artikel</Link>
 									</li>
 									<li>
-										<Link href="/">Premium member</Link>
+										<Link href="/kontak">Kontak</Link>
 									</li>
 								</ul>
 							</div>

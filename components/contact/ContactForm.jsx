@@ -4,18 +4,45 @@ import { useForm } from "react-hook-form";
 import ContactThumb from "../../public/images/contact/kontak.jpg";
 import FadeInRight from "../animation/FadeInRight";
 import Field from "../common/Field";
+import emailjs from "emailjs-com";
 function ContactForm() {
 	const {
 		register,
 		handleSubmit,
 		formState: { errors },
+		reset
 	} = useForm();
+
 	const submitForm = (formData) => {
-		console.log("Submite Form Data = ", formData);
+		emailjs.send(
+			"YOUR_SERVICE_ID", // ganti dengan Service ID dari EmailJS
+			"YOUR_TEMPLATE_ID", // ganti dengan Template ID dari EmailJS
+			{
+				name: formData.name,
+				email: formData.email,
+				phone: formData.phone,
+				message: formData.textarea
+			},
+			"YOUR_USER_ID" // ganti dengan User ID/Public Key dari EmailJS
+		)
+		.then((result) => {
+			alert("Pesan berhasil dikirim!");
+			reset();
+		}, (error) => {
+			alert("Terjadi kesalahan, pesan gagal dikirim.");
+		});
 	};
 	return (
 		<div className="section aximo-section-padding">
 			<div className="container">
+				{/* SEO Hidden Content */}
+				<div style={{ display: "none" }}>
+					<h1>Hubungi Tangguh Glass - Spesialis Kaca Patri & Aluminium</h1>
+					<p>
+						Formulir kontak ini digunakan untuk menghubungi Tangguh Glass, perusahaan spesialis kaca patri dan kaca aluminium terbaik di Indonesia. Silakan isi nama, email, nomor telepon, dan pesan Anda untuk mendapatkan penawaran atau konsultasi gratis seputar kerajinan kaca dekoratif.
+					</p>
+				</div>
+				{/* End SEO Hidden Content */}
 				<div className="row">
 					<div className="col-lg-8">
 						<div className="aximo-section-title">
@@ -70,7 +97,10 @@ function ContactForm() {
 								</div>
 								<div className="aximo-main-field">
 									<label>Write your message here...</label>
-									<textarea name="textarea"></textarea>
+									<textarea
+										{...register("textarea", { required: "Message is required." })}
+										name="textarea"
+									></textarea>
 								</div>
 								<button id="aximo-main-btn" type="submit">
 									Send Message

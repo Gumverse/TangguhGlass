@@ -201,6 +201,20 @@ function PortfolioList() {
 	return (
 		<div className="section aximo-project-page aximo-section-padding5">
 			<div className="container">
+				{/* SEO Hidden Content */}
+				<div style={{ display: "none" }}>
+					<h1>Galeri Portfolio Kaca Patri & Kaca Inlay - Tangguh Glass</h1>
+					<p>
+						Lihat koleksi hasil kerja terbaik Tangguh Glass dalam bidang kaca patri, kaca inlay, dan kaca dekoratif lainnya. Temukan inspirasi desain kaca untuk rumah, masjid, gereja, dan bangunan komersial di seluruh Indonesia.
+					</p>
+					<ul>
+						<li>Portofolio kaca patri motif klasik dan modern</li>
+						<li>Kaca inlay diamond untuk jendela dan pintu</li>
+						<li>Kaca patri masjid dan tempat ibadah</li>
+						<li>Desain kaca dekoratif untuk berbagai kebutuhan</li>
+					</ul>
+				</div>
+				{/* End SEO Hidden Content */}
 				<div className="aximo-section-title center">
 					<h2>
 						Galeri Hasil Kerja Kami

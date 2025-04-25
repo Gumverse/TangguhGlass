@@ -41,6 +41,21 @@ function TwoColumnFaq() {
 	return (
 		<div className="section aximo-section-padding">
 			<div className="container">
+				{/* SEO Hidden Content */}
+				<div style={{ display: "none" }}>
+					<p>
+						FAQ kaca patri dan kaca dekoratif Tangguh Glass: temukan jawaban seputar proses pemesanan, desain custom, estimasi harga, waktu produksi, pengiriman, serta keunggulan produk kaca patri untuk rumah, tempat ibadah, dan bangunan komersial di Indonesia.
+					</p>
+					<ul>
+						<li>Apa itu kaca patri dan keunggulannya?</li>
+						<li>Bisakah memesan desain kaca patri custom?</li>
+						<li>Berapa lama waktu produksi kaca dekoratif?</li>
+						<li>Bagaimana harga kaca patri per meter?</li>
+						<li>Apakah kaca dekoratif cocok untuk rumah tinggal?</li>
+						<li>Apakah layanan pengiriman tersedia ke luar kota?</li>
+					</ul>
+				</div>
+				{/* End SEO Hidden Content */}
 				<div className="aximo-section-title center">
 					<h2>
 						FAQs

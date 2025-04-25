@@ -24,7 +24,7 @@ function Header() {
 						</DesktopNav>
 					</div>
 					<HeaderButton className={styles.hideOnMobile} />
-					<MobileNavbar menuItemsData={menuItemsData} title="Aximo" />
+					<MobileNavbar menuItemsData={menuItemsData} title="Tangguh Glass" />
 				</nav>
 			</div>
 		</header>

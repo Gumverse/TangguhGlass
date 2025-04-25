@@ -1,9 +1,0 @@
-.hide-on-mobile {
-  display: block;
-}
-
-@media (max-width: 991px) {
-  .hide-on-mobile {
-    display: none !important;
-  }
-}

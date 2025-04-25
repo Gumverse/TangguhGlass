@@ -7,6 +7,19 @@ function Hero() {
 	return (
 		<div className="aximo-hero-section5 bg-light7 position-relative">
 			<div className="container">
+				{/* SEO Hidden Content */}
+				<div style={{ display: "none" }}>
+					<p>
+						Tangguh Glass adalah spesialis kaca patri dan kaca aluminium berkualitas tinggi untuk berbagai kebutuhan rumah, kantor, tempat ibadah, dan bangunan komersial. Kami menawarkan desain custom, pengerjaan profesional, dan pengiriman ke seluruh Indonesia.
+					</p>
+					<ul>
+						<li>Jasa pembuatan kaca patri dan kaca aluminium</li>
+						<li>Desain kaca dekoratif custom</li>
+						<li>Pengalaman lebih dari satu dekade di bidang kaca</li>
+						<li>Layanan konsultasi dan pemasangan profesional</li>
+					</ul>
+				</div>
+				{/* End SEO Hidden Content */}
 				<div className="aximo-hero-content6 overflow-hidden">
 					<h1 className="sr-only">
 						Spesialis Kaca Patri & Kaca Aluminium Berkualitas - Tangguh Glass

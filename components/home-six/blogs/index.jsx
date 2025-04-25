@@ -28,6 +28,18 @@ function Blogs() {
 	return (
 		<div className="section aximo-section-padding3">
 			<div className="container">
+				{/* SEO Hidden Content */}
+				<div style={{ display: "none" }}>
+					<p>
+						Blog dan artikel Tangguh Glass membahas berbagai topik seputar kaca patri, kaca inlay, kaca lukis, cermin dekoratif, dan kaca aluminium. Temukan tips memilih kaca dekoratif, inspirasi desain, serta informasi terbaru tentang layanan dan proyek Tangguh Glass di Indonesia.
+					</p>
+					<ul>
+						<li>Jenis-jenis kaca patri dan variasinya</li>
+						<li>Panduan memilih kaca dekoratif yang tepat</li>
+						<li>Inspirasi desain kaca untuk rumah, tempat ibadah, dan ruang komersial</li>
+					</ul>
+				</div>
+				{/* End SEO Hidden Content */}
 				<div className="aximo-section-title playfair">
 					<div className="row">
 						<div className="col-lg-8">

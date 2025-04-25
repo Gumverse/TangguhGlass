@@ -12,6 +12,13 @@ function Video() {
 
 	return (
 		<FadeInUp className="aximo-video-section2 extra-side-margin">
+			{/* SEO Hidden Content */}
+			<div style={{ display: "none" }}>
+				<p>
+					Video profil Tangguh Glass menampilkan proses pembuatan kaca patri dan kaca aluminium berkualitas tinggi, mulai dari desain hingga pemasangan di berbagai proyek rumah, kantor, dan tempat ibadah di Indonesia.
+				</p>
+			</div>
+			{/* End SEO Hidden Content */}
 			<Image src={VideoBg} alt="video bg" className="img-border" />
 			<ModalVideo
 				channel="youtube"

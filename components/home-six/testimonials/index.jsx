@@ -39,6 +39,18 @@ function Testimonials() {
 	return (
 		<div className="section bg-light7 aximo-section-padding5">
 			<div className="container">
+				{/* SEO Hidden Content */}
+				<div style={{ display: "none" }}>
+					<p>
+						Testimoni pelanggan Tangguh Glass membuktikan kualitas layanan kaca patri, kaca inlay, dan kaca dekoratif yang profesional, ramah, dan memuaskan untuk berbagai kebutuhan rumah, tempat ibadah, dan ruang komersial di Indonesia.
+					</p>
+					<ul>
+						<li>Testimoni dari desainer interior, pengurus masjid, dan klien proyek komersial</li>
+						<li>Kepuasan terhadap hasil kaca patri, pemasangan rapi, dan pelayanan ramah</li>
+						<li>Rekomendasi untuk layanan kaca dekoratif custom berkualitas</li>
+					</ul>
+				</div>
+				{/* End SEO Hidden Content */}
 				<div className="aximo-section-title playfair center">
 					<h2>Testimoni Apa Kata Pelanggan Kami</h2>
 				</div>

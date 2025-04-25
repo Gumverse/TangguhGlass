@@ -3,6 +3,18 @@ import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "@/components/animati
 function Accordion() {
 	return (
 		<FadeInStaggerTwo className="accordion aximo-accordion-wrap" id="aximo-accordion">
+			{/* SEO Hidden Content */}
+			<div style={{ display: "none" }}>
+				<p>
+					Tahapan layanan Tangguh Glass meliputi konsultasi, desain, dan produksi kaca patri serta kaca aluminium. Setiap proses dikerjakan oleh tim profesional untuk memastikan hasil terbaik dan kepuasan pelanggan di seluruh Indonesia.
+				</p>
+				<ol>
+					<li>Konsultasi: Diskusi kebutuhan dan konsep desain bersama klien.</li>
+					<li>Desain: Pembuatan sketsa, pemilihan warna, dan bahan terbaik.</li>
+					<li>Produksi: Proses pembuatan dan pemasangan kaca patri secara presisi.</li>
+				</ol>
+			</div>
+			{/* End SEO Hidden Content */}
 			<FadeInStaggerTwoChildren className="accordion-item">
 				<h3 className="accordion-header">
 					<button

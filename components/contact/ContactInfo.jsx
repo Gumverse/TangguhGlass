@@ -9,6 +9,19 @@ function ContactInfo() {
 	return (
 		<div className="aximo-contact-info-section">
 			<div className="container">
+				{/* SEO Hidden Content */}
+				<div style={{ display: "none" }}>
+					<h1>Kontak Tangguh Glass - Spesialis Kaca Patri & Aluminium</h1>
+					<p>
+						Hubungi Tangguh Glass untuk kebutuhan kaca patri, kaca inlay, dan kaca aluminium terbaik di Indonesia. Alamat, nomor telepon, dan email resmi kami tersedia di halaman ini untuk konsultasi, pemesanan, dan informasi lebih lanjut.
+					</p>
+					<ul>
+						<li>Alamat: Jl. Ciater Raya BSD No.2, RT.5/RW.9 Ciater, Kec. Serpong, Kota Tangerang Selatan, Banten 15310</li>
+						<li>Telepon: +62 857-1883-3106</li>
+						<li>Email: tangguhglass@gmail.com</li>
+					</ul>
+				</div>
+				{/* End SEO Hidden Content */}
 				<div className="aximo-contact-info-title">
 					<h2>
 						<span
