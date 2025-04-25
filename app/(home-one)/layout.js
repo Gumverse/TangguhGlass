@@ -55,6 +55,8 @@ const playfair_display = Playfair_Display({
 });
 
 
+// Hapus: import Head from "next/head";
+
 export default function HomeSixLayout({ children }) {
 	return (
 		<html lang="id" className={`${inter.variable} ${playfair_display.variable}`}>
