@@ -23,7 +23,7 @@ export async function GET() {
             .map(
                 (path) => `
       <url>
-        <loc>${baseUrl}/${path}</loc>
+        <loc>${baseUrl}${path ? "/" + path : ""}</loc>
         <lastmod>${new Date().toISOString()}</lastmod>
         <changefreq>${path.startsWith("artikel") ? "monthly" : "weekly"
                     }</changefreq>

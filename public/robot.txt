@@ -1,4 +1,21 @@
 User-agent: *
 Allow: /
 
+# Blokir folder sensitif (jika ada, sesuaikan dengan struktur project kamu)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /server/
+Disallow: /tmp/
+
+# Izinkan Googlebot meng-crawl semua resource penting
+User-agent: Googlebot
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.svg$
+Allow: /*.webp$
+
 Sitemap: https://tangguhglass.netlify.app/sitemap.xml
