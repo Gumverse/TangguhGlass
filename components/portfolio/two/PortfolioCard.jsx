@@ -1,15 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
-function PortfolioCard({ portfolio: { title, description, img } }) {
+function PortfolioCard({ portfolio: { title, description, img, alt } }) {
 	return (
 		<div className="aximo-project-thumb">
-			<Image src={img} alt={title} sizes="100vw" />
+			<Image src={img} alt={alt} sizes="100vw" />
 			<div className="aximo-project-wrap">
 				<div className="aximo-project-data">
 					<Link href="#">
 						<h3>{title}</h3>
 					</Link>
-					{/* <p>{description}</p> */}
+					<p>{description}</p>
 				</div>
 				<Link className="aximo-project-icon" href="#">
 					<svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
