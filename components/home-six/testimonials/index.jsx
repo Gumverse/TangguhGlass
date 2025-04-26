@@ -61,11 +61,11 @@ function Testimonials() {
 						</FadeInStagger>
 					))}
 				</div>
-				<div className="aximo-bottom-center">
+				{/* <div className="aximo-bottom-center">
 					<Link className="aximo-default-btn green-btn pill" href="/#">
 						<span>Explore All Reviews</span>
 					</Link>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

@@ -34,6 +34,36 @@ import "../../public/css/mobile-nav.css";
 export const metadata = {
 	title: "Tangguh Glass | Spesialis Kaca Patri dan Aluminium",
 	description: "Tangguh Glass spesialis kaca patri, kaca inlay, dan kaca dekoratif berkualitas. Solusi desain, pembuatan, dan pemasangan kaca patri terbaik untuk rumah, tempat ibadah, dan bangunan komersial.",
+	keywords: [
+		"kaca patri",
+		"kaca inlay",
+		"kaca dekoratif",
+		"tangguh glass",
+		"spesialis kaca patri",
+		"pembuatan kaca patri",
+		"jasa kaca patri",
+		"kaca patri gereja",
+		"kaca patri masjid",
+		"kaca patri rumah",
+		"kaca patri custom",
+		"kaca patri terbaik"
+	],
+	openGraph: {
+		title: "Tangguh Glass | Spesialis Kaca Patri dan Aluminium",
+		description: "Tangguh Glass spesialis kaca patri, kaca inlay, dan kaca dekoratif berkualitas. Solusi desain, pembuatan, dan pemasangan kaca patri terbaik untuk rumah, tempat ibadah, dan bangunan komersial.",
+		url: "https://tangguhglass.com",
+		siteName: "Tangguh Glass",
+		images: [
+			{
+				url: "https://tangguhglass.com/og-image.jpg",
+				width: 1200,
+				height: 630,
+				alt: "Tangguh Glass - Spesialis Kaca Patri dan Aluminium"
+			}
+		],
+		locale: "id_ID",
+		type: "website"
+	}
 };
 
 // Hapus import font lama
@@ -71,3 +101,4 @@ export default function HomeSixLayout({ children }) {
 		</html>
 	);
 }
+
