@@ -24,10 +24,10 @@ function StoryContent() {
 			<div className="col-lg-6">
 				<h3>Misi Kami</h3>
 				<ul className={styles['story-bullet']}>
-					<li> Menghasilkan karya seni kaca berkualitas tinggi dengan sentuhan inovasi dan tradisi.</li>
-					<li> Membangun hubungan jangka panjang dengan pelanggan melalui layanan profesional dan responsif.</li>
-					<li> Memperluas jangkauan pengiriman agar dapat melayani seluruh wilayah Indonesia secara optimal.</li>
-					<li> Mengembangkan tim ahli berdedikasi demi menjaga standar mutu terbaik.</li>
+					<li>Menghasilkan karya seni kaca berkualitas tinggi dengan sentuhan inovasi dan tradisi.</li>
+					<li>Membangun hubungan jangka panjang dengan pelanggan melalui layanan profesional dan responsif.</li>
+					<li>Memperluas jangkauan pengiriman agar dapat melayani seluruh wilayah Indonesia secara optimal.</li>
+					<li>Mengembangkan tim ahli berdedikasi demi menjaga standar mutu terbaik.</li>
 				</ul>
 			</div>
 		</div>
