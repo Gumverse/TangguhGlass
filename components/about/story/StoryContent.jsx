@@ -1,4 +1,4 @@
-import styles from './storycontent.module.css';
+import styles from './StoryContent.module.css';
 
 function StoryContent() {
 	return (
