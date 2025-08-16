@@ -19,7 +19,28 @@ function Video() {
 				</p>
 			</div>
 			{/* End SEO Hidden Content */}
-			<Image src={VideoBg} alt="video bg" className="img-border" />
+			<div
+				className="video-image-container"
+				style={{
+					position: "relative",
+					width: "100%",
+					maxWidth: "1400px",
+					margin: "0 auto",
+					aspectRatio: "16/9", // or set a fixed height if you prefer
+					maxHeight: "675px",
+					borderRadius: "12px",
+				}}
+			>
+				<Image
+					src={VideoBg}
+					alt="video bg"
+					fill
+					style={{ objectFit: "fill", borderRadius: "12px" }}
+					className="img-border"
+					sizes="(max-width: 1400px) 100vw, 1400px"
+					priority
+				/>
+			</div>
 			<ModalVideo
 				channel="youtube"
 				youtube={{ autoplay: 0 }}

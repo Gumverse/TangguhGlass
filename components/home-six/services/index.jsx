@@ -14,6 +14,7 @@ const servicesData = [
 	{
 		id: crypto.randomUUID(),
 		title: "Kaca Patri",
+		slug: "kaca-patri",
 		description:
 			" Kaca dekoratif dengan motif warna-warni yang dibuat secara custom—ideal untuk hunian, tempat ibadah, atau bangunan komersial.",
 		img: IconPatri,
@@ -22,6 +23,7 @@ const servicesData = [
 	{
 		id: crypto.randomUUID(),
 		title: "Kaca Inlay (Diamond Glass)",
+		slug: "kaca-inlay",
 		description:
 			"Kaca dengan pola geometris elegan yang memberikan kesan mewah pada pintu, jendela dan partisi.",
 		img: IconInlay,
@@ -30,6 +32,7 @@ const servicesData = [
 	{
 		id: crypto.randomUUID(),
 		title: "Kaca Lukis (Painted Glass)",
+		slug: "kaca-lukis",
 		description:
 			"Kaca dengan gambar atau ornamen yang dilukis langsung di permukaan kaca, menciptakan kesan personal dan artistik.",
 		img: IconLukis,
@@ -38,6 +41,7 @@ const servicesData = [
 	{
 		id: crypto.randomUUID(),
 		title: "Cermin Dekoratif",
+		slug: "cermin-dekoratif",
 		description:
 			"Cermin estetik dengan ornamen artistik yang memperluas ruang sekaligus mempercantik tampilan interior.",
 		img: IconCermin,
@@ -46,6 +50,7 @@ const servicesData = [
 	{
 		id: crypto.randomUUID(),
 		title: "Kaca Aluminium",
+		slug: "kaca-aluminium",
 		description:
 			"Kombinasi kaca dan rangka aluminium yang kuat dan minimalis, cocok untuk kebutuhan modern dan fungsionalistas",
 		img: IconAluminium,

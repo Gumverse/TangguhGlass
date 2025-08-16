@@ -18,7 +18,7 @@ function AboutUs() {
 			<About />
 			<Story />			
 		</>
-	);
+	);	
 }
 
 export default AboutUs;

@@ -15,12 +15,12 @@ const featuresData = [
 			"Kami percaya, desain yang baik bukan hanya soal visual—tapi juga soal rasa dan makna yang dibawanya ke dalam ruang Anda.",
 		img: Box1Img,
 	},
-	// {
-	// 	id: crypto.randomUUID(),
-	// 	title: "Harga Terjangkau",
-	// 	description: "Kami selalu menawarkan kualitas terbaik dengan harga yang tetap terjangkau—tanpa mengorbankan hasil akhir.",
-	// 	img: Box1Img2,
-	// },
+	{
+		id: crypto.randomUUID(),
+		title: "Harga Terjangkau",
+		description: "Kami selalu menawarkan kualitas terbaik dengan harga yang tetap terjangkau—tanpa mengorbankan hasil akhir.",
+		img: Box1Img2,
+	},
 	{
 		id: crypto.randomUUID(),
 		title: "Material Terbaik",
@@ -28,13 +28,13 @@ const featuresData = [
 			"Kami memilih material kaca patri dan aluminium terbaik yang tahan lama, kuat, dan tampil estetik.",
 		img: Box1Img3,
 	},
-	// {
-	// 	id: crypto.randomUUID(),
-	// 	title: "Tepat Waktu",
-	// 	description:
-	// 		"Dengan manajemen proyek yang rapi dan tim yang berpengalaman, kami pastikan setiap pesanan selesai tepat waktu tanpa mengorbankan kualitas",
-	// 	img: Box1Img4,
-	// },
+	{
+		id: crypto.randomUUID(),
+		title: "Tepat Waktu",
+		description:
+			"Dengan manajemen proyek yang rapi dan tim yang berpengalaman, kami pastikan setiap pesanan selesai tepat waktu tanpa mengorbankan kualitas",
+		img: Box1Img4,
+	},
 	{
 		id: crypto.randomUUID(),
 		title: "Jasa Terpercaya",
@@ -42,13 +42,13 @@ const featuresData = [
 			"Dari rumah pribadi, Ruang Komersial hingga bangunan ibadah, kami telah dipercaya oleh banyak pelanggan karena hasil kerja yang rapi, proses transparan, dan layanan yang ramah",
 		img: Box1Img5,
 	},
-	// {
-	// 	id: crypto.randomUUID(),
-	// 	title: "Tim Profesional",
-	// 	description:
-	// 		"Proyek Anda akan ditangani oleh tim profesional berpengalaman—mulai dari desainer, hingga teknisi ahli.",
-	// 	img: Box1Img6,
-	// },
+	{
+		id: crypto.randomUUID(),
+		title: "Tim Profesional",
+		description:
+			"Proyek Anda akan ditangani oleh tim profesional berpengalaman—mulai dari desainer, hingga teknisi ahli.",
+		img: Box1Img6,
+	},
 ];
 function Features() {
 	return (

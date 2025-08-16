@@ -32,8 +32,13 @@ function About() {
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-6 order-lg-2">
-							<FadeInUp className="aximo-v6-thumb1">
-								<Image src={Thumb1Img} alt="Tim profesional kaca patri dan aluminium Tangguh Glass" sizes="100vw" />
+							<FadeInUp className="aximo-v6-thumb1" style={{ position: "relative", width: "100%", marginLeft: 0, marginRight: 0, transform: "none" }}>
+								<Image
+									src={Thumb1Img}
+									alt="Tim profesional kaca patri dan aluminium Tangguh Glass"
+									style={{ width: "100%", height: "auto", borderRadius: "12px" }}
+									sizes="(max-width: 992px) 100vw, 50vw"
+								/>
 							</FadeInUp>
 						</div>
 						<div className="col-lg-6 d-flex align-items-center">
@@ -91,8 +96,13 @@ function About() {
 						style={{ marginTop: "5rem" }}
 					>
 						<div className="col-lg-6 ">
-							<FadeInUp className="aximo-v6-thumb2">
-								<Image src={Thumb2Img} alt="Proyek kaca patri dan dekorasi oleh Tangguh Glass" sizes="100vw" />
+							<FadeInUp className="aximo-v6-thumb2" style={{ position: "relative", width: "100%", marginLeft: 0, marginRight: 0, transform: "none" }}>
+								<Image
+									src={Thumb2Img}
+									alt="Proyek kaca patri dan dekorasi oleh Tangguh Glass"
+									style={{ width: "100%", height: "auto", borderRadius: "12px" }}
+									sizes="(max-width: 992px) 100vw, 50vw"
+								/>
 							</FadeInUp>
 						</div>
 						<div className="col-lg-6 d-flex align-items-center">

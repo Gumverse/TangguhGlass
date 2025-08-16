@@ -10,7 +10,7 @@ function ContactInfo() {
 		<div className="aximo-contact-info-section">
 			<div className="container">
 				{/* SEO Hidden Content */}
-				<div style={{ display: "none" }}>
+				<div className="sr-only">
 					<h1>Kontak Tangguh Glass - Spesialis Kaca Patri & Aluminium</h1>
 					<p>
 						Hubungi Tangguh Glass untuk kebutuhan kaca patri, kaca inlay, dan kaca aluminium terbaik di Indonesia. Alamat, nomor telepon, dan email resmi kami tersedia di halaman ini untuk konsultasi, pemesanan, dan informasi lebih lanjut.

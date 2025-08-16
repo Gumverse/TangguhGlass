@@ -60,7 +60,21 @@
 }
 
 /*1.0 base css*/
-@media (min-width: 1400px) {
+@media (min-width: 1601px) {
+
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl,
+	.container-xxl {
+		max-width: 1440px;
+	}
+	.aximo-hero-text {
+		font-size: 135px !important;
+	}
+}
+@media (max-width: 1600px) {
 
 	.container,
 	.container-lg,
@@ -11841,3 +11855,31 @@ button#aximo-notified-btn {
 	color: #fff;
 }
 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Custom styles for consistent service card height */
+.service-card-equal-height {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.service-card-equal-height .aximo-iconbox-data8 {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.service-card-equal-height .aximo-iconbox-data8 p {
+	flex-grow: 1;
+}
