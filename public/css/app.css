@@ -122,7 +122,7 @@ body {
 	text-rendering: optimizeLegibility;
 	font-weight: 400;
 	overflow-x: hidden;
-	background-color: var(--light-bg1);
+	background-color: #fff;
 	counter-reset: my-sec-counter;
 	font-size: 18px;
 	line-height: 30px;
