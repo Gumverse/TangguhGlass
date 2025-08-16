@@ -96,7 +96,7 @@ function Services() {
 					Tangguh Glass menawarkan layanan kaca patri, kaca inlay, kaca lukis, cermin dekoratif, dan kaca aluminium berkualitas tinggi untuk hunian, tempat ibadah, dan ruang komersial. Setiap layanan kami dikerjakan dengan keahlian dan dedikasi untuk hasil terbaik.
 				</p>
 				{/* SEO Hidden Content */}
-				<div style={{ display: "none" }}>
+				<div className="sr-only">
 					<p>
 						Layanan utama Tangguh Glass meliputi pembuatan kaca patri custom, kaca inlay (diamond glass), kaca lukis, cermin dekoratif, dan kaca aluminium untuk berbagai kebutuhan rumah, tempat ibadah, dan ruang komersial di Indonesia. Setiap proyek dikerjakan dengan material terbaik dan tenaga profesional.
 					</p>

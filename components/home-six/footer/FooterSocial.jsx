@@ -2,7 +2,7 @@ function FooterSocial() {
 	return (
 		<div className="aximo-footer-title light-two">
 			{/* SEO Hidden Content */}
-			<div style={{ display: "none" }}>
+			<div className="sr-only">
 				<p>
 					Ikuti Tangguh Glass di media sosial untuk update terbaru seputar kaca patri, kaca aluminium, inspirasi desain, dan promo menarik. Temukan kami di Facebook, Twitter, Instagram, dan LinkedIn.
 				</p>

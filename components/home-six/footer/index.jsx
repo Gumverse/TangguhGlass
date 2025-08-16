@@ -12,7 +12,7 @@ function Footer() {
 		<footer className="section dark-bg2 position-relative">
 			<div className="container">
 				{/* SEO Hidden Content */}
-				<div style={{ display: "none" }}>
+				<div className="sr-only">
 					<p>
 						Tangguh Glass menyediakan layanan kaca patri, kaca inlay, dan kaca aluminium untuk rumah, kantor, tempat ibadah, dan bangunan komersial di seluruh Indonesia. Hubungi kami untuk konsultasi, pemesanan, atau informasi lebih lanjut mengenai produk dan layanan kaca dekoratif berkualitas.
 					</p>
@@ -27,7 +27,7 @@ function Footer() {
 					<ContactInfo />
 					<div className="row">
 						{/* SEO Hidden Content untuk Google Maps */}
-						<div style={{ display: "none" }}>
+						<div className="sr-only">
 							<p>
 								Lokasi Tangguh Glass: Jl. Ciater Raya BSD No.2, Tangerang Selatan, Banten 15310, Indonesia. Koordinat: -6.3158055, 106.7050912. Kami melayani pemasangan kaca patri, kaca inlay, dan kaca aluminium untuk seluruh wilayah Indonesia.
 							</p>

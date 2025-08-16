@@ -4,7 +4,7 @@ function BreadCrumb({ title }) {
 		<div className="aximo-breadcrumb">
 			<div className="container">
 				{/* SEO Hidden Content */}
-				<div style={{ display: "none" }}>
+				<div className="sr-only">
 					<h1>{title} | Tangguh Glass</h1>
 					<p>
 						Halaman ini berisi informasi tentang "{title}" dari Tangguh Glass, spesialis kaca patri dan kaca aluminium di Indonesia. Temukan inspirasi, tips, dan solusi kaca dekoratif terbaik untuk hunian maupun bangunan komersial.

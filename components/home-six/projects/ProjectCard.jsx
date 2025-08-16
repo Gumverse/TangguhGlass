@@ -5,7 +5,7 @@ function ProjectCard({ project: { title, img } }) {
     return (
         <div className="aximo-project-thumb5">
             {/* SEO Hidden Content */}
-            <div style={{ display: "none" }}>
+            <div className="sr-only">
                 <p>
                     {title} adalah salah satu karya kaca patri, kaca inlay, atau kaca dekoratif dari Tangguh Glass yang dikerjakan dengan material berkualitas dan desain estetik untuk berbagai kebutuhan rumah, tempat ibadah, atau bangunan komersial.
                 </p>

@@ -8,7 +8,7 @@ function Hero() {
 		<div className="aximo-hero-section5 bg-light7 position-relative">
 			<div className="container">
 				{/* SEO Hidden Content */}
-				<div style={{ display: "none" }}>
+				<div className="sr-only">
 					<p>
 						Tangguh Glass adalah spesialis kaca patri dan kaca aluminium berkualitas tinggi untuk berbagai kebutuhan rumah, kantor, tempat ibadah, dan bangunan komersial. Kami menawarkan desain custom, pengerjaan profesional, dan pengiriman ke seluruh Indonesia.
 					</p>

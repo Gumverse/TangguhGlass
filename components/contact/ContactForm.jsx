@@ -36,7 +36,7 @@ function ContactForm() {
 		<div className="section aximo-section-padding">
 			<div className="container">
 				{/* SEO Hidden Content */}
-				<div style={{ display: "none" }}>
+				<div className="sr-only">
 					<h1>Hubungi Tangguh Glass - Spesialis Kaca Patri & Aluminium</h1>
 					<p>
 						Formulir kontak ini digunakan untuk menghubungi Tangguh Glass, perusahaan spesialis kaca patri dan kaca aluminium terbaik di Indonesia. Silakan isi nama, email, nomor telepon, dan pesan Anda untuk mendapatkan penawaran atau konsultasi gratis seputar kerajinan kaca dekoratif.

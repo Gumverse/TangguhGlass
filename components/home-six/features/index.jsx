@@ -55,7 +55,7 @@ function Features() {
 		<div className="section aximo-section-padding2">
 			<div className="container">
 				{/* SEO Hidden Content */}
-				<div style={{ display: "none" }}>
+				<div className="sr-only">
 					<p>
 						Fitur layanan Tangguh Glass meliputi desain Kaca estetik, penggunaan material kaca patri dan aluminium terbaik, serta jasa terpercaya untuk berbagai kebutuhan rumah, kantor, dan tempat ibadah di Indonesia. Kaca patri khususnya di tanggerang selatan
 					</p>

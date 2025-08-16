@@ -5,7 +5,7 @@ function Content() {
 	return (
 		<div className="aximo-default-content">
 			{/* SEO Hidden Content */}
-			<div style={{ display: "none" }}>
+			<div className="sr-only">
 				<p>
 					Proses kerja Tangguh Glass dimulai dari konsultasi, desain, hingga produksi dan pengiriman kaca patri serta kaca aluminium berkualitas tinggi ke seluruh Indonesia. Setiap tahap dikerjakan oleh tim profesional untuk memastikan hasil terbaik bagi pelanggan.
 				</p>

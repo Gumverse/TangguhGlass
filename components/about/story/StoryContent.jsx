@@ -4,7 +4,7 @@ function StoryContent() {
 	return (
 		<div className="row">
 			{/* SEO Hidden Content */}
-			<div style={{ display: "none" }}>
+			<div className="sr-only">
 				<h1>Profil Perusahaan Tangguh Glass</h1>
 				<p>
 					Tangguh Glass adalah perusahaan spesialis kaca patri dan kaca aluminium di Indonesia yang berkomitmen pada kualitas dan pelayanan terbaik. Visi dan misi kami mendukung keunggulan produk serta kepuasan pelanggan di seluruh Indonesia.

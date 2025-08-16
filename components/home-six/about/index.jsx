@@ -19,7 +19,7 @@ function About() {
 						Tangguh Glass adalah tim profesional yang berfokus pada desain dan pembuatan kaca patri, kaca inlay, kaca dekorasi, dan kaca aluminium berkualitas untuk hunian, tempat ibadah, dan ruang komersial. Kami mengutamakan ketelitian, kreativitas, dan dedikasi dalam setiap proyek.
 					</p>
 					{/* SEO Hidden Content */}
-					<div style={{ display: "none" }}>
+					<div className="sr-only">
 						<p>
 							Layanan Tangguh Glass meliputi konsultasi desain, pembuatan kaca patri custom, kaca inlay, kaca dekorasi, dan kaca aluminium untuk berbagai kebutuhan rumah, tempat ibadah, dan ruang komersial di Indonesia. Kami mengutamakan kualitas, estetika, dan kepuasan pelanggan.
 						</p>

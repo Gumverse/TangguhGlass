@@ -29,7 +29,7 @@ function Blogs() {
 		<div className="section aximo-section-padding3">
 			<div className="container">
 				{/* SEO Hidden Content */}
-				<div style={{ display: "none" }}>
+				<div className="sr-only">
 					<p>
 						Blog dan artikel Tangguh Glass membahas berbagai topik seputar kaca patri, kaca inlay, kaca lukis, cermin dekoratif, dan kaca aluminium. Temukan tips memilih kaca dekoratif, inspirasi desain, serta informasi terbaru tentang layanan dan proyek Tangguh Glass di Indonesia.
 					</p>

@@ -55,7 +55,7 @@ function Projects() {
 		<div className="section aximo-section-padding5 position-relative">
 			<div className="container">
 				{/* SEO Hidden Content */}
-				<div style={{ display: "none" }}>
+				<div className="sr-only">
 					<p>
 						Galeri karya Tangguh Glass menampilkan berbagai proyek kaca patri, kaca inlay, dan kaca dekoratif untuk rumah, tempat ibadah, dan bangunan komersial di Indonesia. Setiap karya dikerjakan dengan material berkualitas dan desain estetik.
 					</p>
